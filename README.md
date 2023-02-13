@@ -21,4 +21,4 @@ yarn dev
 ```
 
 ## Live website
-Live website can be found here: [nudabagana.github.io/contactify/](nudabagana.github.io/contactify/)
+Live website can be found here: [https://nudabagana.github.io/contactify/](https://nudabagana.github.io/contactify/)
