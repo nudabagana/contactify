@@ -1,5 +1,16 @@
+import Contacts from './components/contacts/Contacts';
+import Header from './components/Header';
+import { initAxios } from './utils/axiosUtils';
+
+initAxios();
+
 const App = () => {
-  return <h1 className="text-3xl font-bold underline center-text ">Hello Dragon!</h1>;
+  return (
+    <>
+      <Header />
+      <Contacts />
+    </>
+  );
 };
 
 export default App;

@@ -16,4 +16,10 @@ body,
   height: 100%;
   font-weight: 400;
   font-family: Open Sans, sans-serif;
+  letter-spacing: 0.025em;
+  background: #f9fafb;
+}
+
+img {
+  margin: auto;
 }
