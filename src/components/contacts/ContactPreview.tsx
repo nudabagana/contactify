@@ -11,10 +11,10 @@ type Props = { contactId: string };
 const ContactPreview: FC<Props> = ({ contactId }) => {
   const [{ data, error }] = useAxios<Contact>(`/contacts/${contactId}`);
   const { name, surname, city, email, phone } = data ?? {};
-  const fullName = name && surname ? makeFullName({ name, surname }): '';
+  const fullName = name && surname ? makeFullName({ name, surname }) : '';
   return (
     <div className="flex basis-1/4 flex-col justify-center overflow-clip rounded bg-white pb-4 shadow-lg">
-      <img src={userImg} alt="user-image" />
+      <img src={userImg} alt="user" />
       <div className="flex flex-col items-center justify-center text-xs ">
         {error ? (
           <ErrorBox />
